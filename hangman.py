@@ -15,7 +15,7 @@ def hangman():
     word = get_valid_word(words)
     letter = set(word)
     alphabet = set(string.ascii_uppercase)
-    lives = 20
+    lives = 15
 
     while len(letter) > 0 and lives > 0:
         print('\nCurrent lives: {}'.format(lives))
